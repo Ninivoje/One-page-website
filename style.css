@@ -1,0 +1,145 @@
+.levo{
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    border-bottom: 1px solid #33B8FF;
+}
+
+nav .link {
+    text-decoration: none;
+    color: #032E63;
+    padding: 5px;
+}
+
+nav .link:hover {
+    color: #4b9fcc;
+    background-color: rgba(51, 184, 255, 0.2);
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.razmak{
+    letter-spacing: 2px;
+    margin-bottom: unset;
+    font-size: 22px;
+}
+
+.link{
+    margin-left: 15%;
+}
+
+.desno{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sredina{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.main{
+    background-image: url("slika.jpg");
+    height: 1000px;
+    text-align: center;
+    color: #032E63;
+    display: flex;
+    flex-direction: column;
+}
+
+.h1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4{
+    color: gray;
+    font-size: 20px;
+}
+
+.tekst{
+    margin-top: 0.4%;
+}
+
+.div4{
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+html 
+.div {
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 220px;
+    margin-left: 6%;
+    background-color: white;
+    padding: 10px;
+    padding-top: 45px;
+    box-shadow: 5px 5px 5px 5px gray;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.div:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3); 
+}
+
+h6{
+    text-align: left;
+}
+
+.slika, svg{
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+button:active {
+    background-color: #003f7f;
+    transform: translateY(1px);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
